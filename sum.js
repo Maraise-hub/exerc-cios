@@ -25,5 +25,5 @@ function myFizzBuzz(num) {
   return num;
 }
 
-// implemente seus testes aqui
+
 
