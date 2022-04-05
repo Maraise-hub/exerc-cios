@@ -7,8 +7,6 @@ function sum(a, b) {
 }
 
 
-
-
 function myRemove(arr, item) {
   let newArr = [];
   for (let index = 0; index < arr.length; index += 1) {
@@ -26,4 +24,6 @@ function myFizzBuzz(num) {
   if (num % 5 === 0) return 'buzz';
   return num;
 }
+
+// implemente seus testes aqui
 
