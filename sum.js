@@ -6,7 +6,6 @@ function sum(a, b) {
   return a + b;
 }
 
-
 function myRemove(arr, item) {
   let newArr = [];
   for (let index = 0; index < arr.length; index += 1) {
@@ -26,4 +25,8 @@ function myFizzBuzz(num) {
 }
 
 
-
+module.exports = {
+  sum,
+  myRemove,
+  myFizzBuzz,
+}
